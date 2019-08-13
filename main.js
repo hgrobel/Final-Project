@@ -15,7 +15,7 @@ function calculateTip() {
     var finalTip = price * 0.3;
     var numOfPeople = $('.people').val();
     var total = finalTip / numOfPeople;
-    message.text($(total));
+    message.text(`$${total} per person`);
 
   } else if(twentyFive) {
     var price = $('.price').val();
@@ -23,7 +23,7 @@ function calculateTip() {
     var finalTip = price * 0.25;
     var numOfPeople = $('.people').val();
     var total = finalTip / numOfPeople;
-    message.text($(total));
+    message.text(`$${total} per person`);
 
   } else if(fifteen) {
     var price = $('.price').val();
@@ -31,7 +31,7 @@ function calculateTip() {
     var finalTip = price * 0.15;
     var numOfPeople = $('.people').val();
     var total = finalTip / numOfPeople;
-    message.text($(total));
+    message.text(`$${total} per person`);
 
   } else if(five) {
     var price = $('.price').val();
@@ -39,7 +39,7 @@ function calculateTip() {
     var finalTip = price * 0.05;
     var numOfPeople = $('.people').val();
     var total = finalTip / numOfPeople;
-    message.text($(total));
+    message.text(`$${total} per person`);
   }
-console.log(message.text(total))
+console.log(message.text(`$${total} per person`))
 }

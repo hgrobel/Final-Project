@@ -14,6 +14,8 @@ h2 {
   margin-bottom: 0px;
   padding-top: 0px;
   text-align: center;
+  font-size: 40px;
+  margin-left: 120px;
 }
 
 .text {
@@ -35,4 +37,40 @@ h2 {
 
 .body {
   background-image: url("https://cdn1.vectorstock.com/i/thumb-large/61/60/mathematical-symbols-seamless-pattern-with-simple-vector-9246160.jpg");
+}
+
+.divone {
+  height: 100px;
+  margin-left: 20px;
+}
+
+.divtwo {
+  height: 100px;
+  margin-left: 120px
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#questions {
+  font-family: 'Roboto Mono';
+}
+
+.button {
+  background-color: #b7e3f0;
+  height: 60px;
+  width: 120px;
+  font-size: 15px;
+  border-radius: 14px;
+  border-color: #4db8c7;
+  border-width: 3px;
+  color: #3894a1;
+}
+
+.emptybox {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  color: #ed4337;
 }
