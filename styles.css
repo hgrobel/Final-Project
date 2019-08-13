@@ -1,0 +1,38 @@
+h1 {
+  font-family: blockhead;
+  font-size: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: #ed4337;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.text {
+  background-color: #fdfcea;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.body {
+  background-image: url("https://cdn1.vectorstock.com/i/thumb-large/61/60/mathematical-symbols-seamless-pattern-with-simple-vector-9246160.jpg");
+}
